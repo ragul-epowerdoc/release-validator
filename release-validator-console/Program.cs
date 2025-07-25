@@ -283,7 +283,26 @@ internal class Program
             "System.Drawing",
             "System.Xml",
             "System.Runtime.Serialization",
-            "System.Core"
+            "System.Core",
+            "netstandard",
+            "Microsoft.Win32.Registry",
+            "System.Security.Cryptography.Xml",
+            "System.Security.Principal.Windows",
+            "System.Threading.Tasks.Extensions",
+            "Microsoft.Extensions.Primitives",
+            "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "Microsoft.Extensions.Configuration.Abstractions",
+            "System.Threading.Tasks.Extensions",
+            "Microsoft.Extensions.FileProviders.Abstractions",
+            "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "System.Memory",
+            "System.Runtime.CompilerServices.Unsafe",
+            "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "Microsoft.Extensions.Options",
+            "System.Threading.Tasks.Extensions",
+            "System.Buffers",
+            "System.Runtime.CompilerServices.Unsafe",
+            "System.Numerics",
         };
 
         // Validate that transitive dependency references are also present in the manifest.
