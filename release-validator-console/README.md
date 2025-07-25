@@ -15,6 +15,6 @@ Omit `--include-transitive` if you only care about top‑level DLLs.
 
 ## Validate
 ```bash
-dotnet run -- validate --bin "C:\Some\SharePointDrop\15.71" --manifest manifest.json
+dotnet run -- validate --bin "C:\Some\SharePointDrop\Release-69" --manifest manifest.json
 ```
 The tool exits with code 0 when validation passes, non‑zero otherwise (so you can fail CI).
